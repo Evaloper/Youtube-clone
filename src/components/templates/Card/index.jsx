@@ -47,45 +47,45 @@ const CardTemplate = () => {
       duration: "14 hours ago",
       src: "https://www.youtube.com/embed/6xX3ha5QXJ8",
     },
-    // {
-    //   id: "5",
-    //   heading: "Introduction to Git and Github",
-    //   image: Displaypics,
-    //   author: "Technical Writing",
-    //   views: "7 views",
-    //   duration: "3 hours ago",
-    //   src: "https://www.youtube.com/embed/wN6UHSXaIGw",
-    // },
+    {
+      id: "5",
+      heading: "Introduction to Git and Github",
+      image: Displaypics,
+      author: "Technical Writing",
+      views: "7 views",
+      duration: "3 hours ago",
+      src: "https://www.youtube.com/embed/wN6UHSXaIGw",
+    },
 
-    // {
-    //   id: "6",
-    //   heading: "Circle of Life By Ndlovu Youth Choir",
-    //   image: coverimg,
-    //   author: "Ndlovu Youth Choir",
-    //   views: "234k views",
-    //   duration: "2 years ago",
-    //   src: "https://www.youtube.com/embed/0AGtd2-jv0U",
-    // },
+    {
+      id: "6",
+      heading: "Circle of Life By Ndlovu Youth Choir",
+      image: coverimg,
+      author: "Ndlovu Youth Choir",
+      views: "234k views",
+      duration: "2 years ago",
+      src: "https://www.youtube.com/embed/0AGtd2-jv0U",
+    },
 
-    // {
-    //   id: "7",
-    //   heading: "Maverick City Music - Fear Is Not My Future (MultiTracks Session)",
-    //   image: coverpics,
-    //   author: "The Net Ninja",
-    //   views: "234k views",
-    //   duration: "2 years ago",
-    //   src: "https://www.youtube.com/embed/treExOZXO4w",
-    // },
+    {
+      id: "7",
+      heading: "Maverick City Music - Fear Is Not My Future (MultiTracks Session)",
+      image: coverpics,
+      author: "The Net Ninja",
+      views: "234k views",
+      duration: "2 years ago",
+      src: "https://www.youtube.com/embed/treExOZXO4w",
+    },
 
-    // {
-    //   id: "8",
-    //   heading: "Learn React in 30 Minutes",
-    //   image: Displayimg,
-    //   author: "Web dev Simplified",
-    //   views: "234k views",
-    //   duration: "2 years ago",
-    //   src: "https://www.youtube.com/embed/hQAHSlTtcmY",
-    // }
+    {
+      id: "8",
+      heading: "Learn React in 30 Minutes",
+      image: Displayimg,
+      author: "Web dev Simplified",
+      views: "234k views",
+      duration: "2 years ago",
+      src: "https://www.youtube.com/embed/hQAHSlTtcmY",
+    }
   ]);
   return (
     <div className="video-container flex">

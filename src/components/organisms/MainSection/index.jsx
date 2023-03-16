@@ -104,10 +104,10 @@ function MainSection() {
           </div>
           <div className="card-temp">
             <CardTemplate />
+            {/* <CardTemplate />
             <CardTemplate />
             <CardTemplate />
-            <CardTemplate />
-            <CardTemplate />
+            <CardTemplate /> */}
           </div>
         </div>
       </div>

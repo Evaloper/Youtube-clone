@@ -1,5 +1,4 @@
 import React from "react";
-import { button } from "../../../theme/styleDefinition";
 import { Icon, Image, Input } from "../../atoms";
 import pics from "../../../assets/pics.jpg";
 import "./Navbar.css";
