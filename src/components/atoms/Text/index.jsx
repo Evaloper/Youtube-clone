@@ -1,5 +1,5 @@
 import React from "react";
-import { h1, h2, h3, p } from "../../../theme/styleDefinition";
+import { h1, h2, h3, p } from "./app";
 
 export const Text = (props) => {
   const {type, children } = props;
