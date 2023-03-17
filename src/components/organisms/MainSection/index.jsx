@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import { Button, Icon } from "../../atoms";
 import { IconText } from "../../molecules/IconText";
 import CardTemplate from "../../templates/Card";
+import ReelsTemplate from "../../templates/Reels";
 import "./verticalbar.css";
 
 function MainSection() {
   return (
     <div className="main flex">
       {/* Start of Horizontal Side Bar */}
-      <div className="">
+      <div className="content-nav">
         <div>
           <IconText type="Home"/>
         </div>
@@ -104,10 +105,12 @@ function MainSection() {
           </div>
           <div className="card-temp">
             <CardTemplate />
-            {/* <CardTemplate />
+            <hr id="hz-line" />
+            <ReelsTemplate />
+            <hr id="hz-line" />
             <CardTemplate />
             <CardTemplate />
-            <CardTemplate /> */}
+            <CardTemplate />
           </div>
         </div>
       </div>

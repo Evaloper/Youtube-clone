@@ -105,7 +105,7 @@ function Navbar() {
             </p>
           </div>
         </div>
-        <div className="flex flex-center margin-auto">
+        <div className="flex flex-center margin-auto mid-nav">
           <div className="search-div">
             <form action="" className="flex-center">
               <Input

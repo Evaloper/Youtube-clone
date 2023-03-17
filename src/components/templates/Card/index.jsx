@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import download from "../../../assets/download.jpg";
-import Displayimg from "../../../assets/displayimg.png";
-import coverpics from "../../../assets/coverpics.png";
-import Displaypics from "../../../assets/Displaypics.png";
-import coverimg from "../../../assets/coverimg.png";
 import "./Card.css";
 import { Button } from "../../atoms/Button";
 import { Icon } from "../../atoms/Icon";
@@ -13,82 +9,122 @@ const CardTemplate = () => {
     {
       id: "1",
       heading: "Learn React in 30 Minutes",
-      image: Displayimg,
       author: "Web dev Simplified",
       views: "234k views",
       duration: "2 years ago",
       src: "https://www.youtube.com/embed/hQAHSlTtcmY",
+      time: "3:00:00",
     },
     {
       id: "2",
       heading:
         "Maverick City Music - Fear Is Not My Future (MultiTracks Session)",
-      image: coverpics,
       author: "The Net Ninja",
       views: "234k views",
       duration: "2 years ago",
       src: "https://www.youtube.com/embed/treExOZXO4w",
+      time: "2:31"
     },
     {
       id: "3",
       heading: "Circle of Life By Ndlovu Youth Choir",
-      image: coverimg,
       author: "Ndlovu Youth Choir",
       views: "234k views",
       duration: "2 years ago",
       src: "https://www.youtube.com/embed/0AGtd2-jv0U",
+      time: "6:23",
     },
     {
       id: "4",
       heading: "COVENANT HOUR OF PRAYER |9, MARCH 2023 | FAITH TABERNACLE OTA",
-      image: Displaypics,
       author: "Living Faith Church Worldwide",
       views: "24k views",
       duration: "14 hours ago",
       src: "https://www.youtube.com/embed/6xX3ha5QXJ8",
+      time: "5:20",
     },
-    {
-      id: "5",
-      heading: "Introduction to Git and Github",
-      image: Displaypics,
-      author: "Technical Writing",
-      views: "7 views",
-      duration: "3 hours ago",
-      src: "https://www.youtube.com/embed/wN6UHSXaIGw",
-    },
+    // {
+    //   id: "5",
+    //   heading: "Introduction to Git and Github",
+    //   author: "Technical Writing",
+    //   views: "7 views",
+    //   duration: "3 hours ago",
+    //   src: "https://www.youtube.com/embed/wN6UHSXaIGw",
+    //   time: "2:40",
+    // },
 
-    {
-      id: "6",
-      heading: "Circle of Life By Ndlovu Youth Choir",
-      image: coverimg,
-      author: "Ndlovu Youth Choir",
-      views: "234k views",
-      duration: "2 years ago",
-      src: "https://www.youtube.com/embed/0AGtd2-jv0U",
-    },
+    // {
+    //   id: "6",
+    //   heading: "Circle of Life By Ndlovu Youth Choir",
+    //   author: "Ndlovu Youth Choir",
+    //   views: "234k views",
+    //   duration: "2 years ago",
+    //   src: "https://www.youtube.com/embed/0AGtd2-jv0U",
+    //   time: "1:30",
+    // },
 
-    {
-      id: "7",
-      heading: "Maverick City Music - Fear Is Not My Future (MultiTracks Session)",
-      image: coverpics,
-      author: "The Net Ninja",
-      views: "234k views",
-      duration: "2 years ago",
-      src: "https://www.youtube.com/embed/treExOZXO4w",
-    },
+    // {
+    //   id: "7",
+    //   heading: "Maverick City Music - Fear Is Not My Future (MultiTracks Session)",
+    //   author: "The Net Ninja",
+    //   views: "234k views",
+    //   duration: "2 years ago",
+    //   src: "https://www.youtube.com/embed/treExOZXO4w",
+    //   time: "2:40",
+    // },
 
-    {
-      id: "8",
-      heading: "Learn React in 30 Minutes",
-      image: Displayimg,
-      author: "Web dev Simplified",
-      views: "234k views",
-      duration: "2 years ago",
-      src: "https://www.youtube.com/embed/hQAHSlTtcmY",
-    }
+    // {
+    //   id: "8",
+    //   heading: "Learn React in 30 Minutes",
+    //   author: "Web dev Simplified",
+    //   views: "234k views",
+    //   duration: "2 years ago",
+    //   src: "https://www.youtube.com/embed/hQAHSlTtcmY",
+    //   time: "1:29",
+    // }, 
+
+    // {
+    //   id: "9",
+    //   heading: "Introduction to Git and Github",
+    //   author: "Technical Writing",
+    //   views: "7 views",
+    //   duration: "3 hours ago",
+    //   src: "https://www.youtube.com/embed/wN6UHSXaIGw",
+    //   time: "5:10",
+    // },
+
+    // {
+    //   id: "10",
+    //   heading: "Circle of Life By Ndlovu Youth Choir",
+    //   author: "Ndlovu Youth Choir",
+    //   views: "234k views",
+    //   duration: "2 years ago",
+    //   src: "https://www.youtube.com/embed/0AGtd2-jv0U",
+    //   time:"30:45",
+    // },
+
+    // {
+    //   id: "11",
+    //   heading: "Maverick City Music - Fear Is Not My Future (MultiTracks Session)",
+    //   author: "The Net Ninja",
+    //   views: "234k views",
+    //   duration: "2 years ago",
+    //   src: "https://www.youtube.com/embed/treExOZXO4w",
+    //   time: "4:34",
+    // },
+
+    // {
+    //   id: "12",
+    //   heading: "Learn React in 30 Minutes",
+    //   author: "Web dev Simplified",
+    //   views: "234k views",
+    //   duration: "2 years ago",
+    //   src: "https://www.youtube.com/embed/hQAHSlTtcmY",
+    //   time: "2:00:50",
+    // }
   ]);
   return (
-    <div className="video-container flex">
+    <div className="video-container">
       {card.map((card) => (
         <div className="video-content" key={card.id}>
           <div className="video">
@@ -106,6 +142,7 @@ const CardTemplate = () => {
                 allowfullscreen
               ></iframe>
             </a>
+            <p className="time">{card.time}</p>
           </div>
           <div className="video-details flex">
             <div className="author-logo">

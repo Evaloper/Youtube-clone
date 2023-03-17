@@ -1,4 +1,5 @@
 .video-container {
+    display: flex;
     transition: 1s all ease-out;
 }
 
@@ -11,6 +12,7 @@
 
 .video-content {
     margin: 10px 8px;
+    width: min-content;
 }
 
 .video-box iframe {
@@ -54,9 +56,80 @@ iframe:hover {
     display: block;
 }
 
+.time {
+    font-size: 12px;
+    position: absolute;
+    top: 280px;
+    left: 350px;
+    color: #fff;
+    background-color: #00000091;
+    width: 50px;
+    border-radius: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.reels-con {
+    display: flex;
+}
+
+.reel-box iframe {
+    width: 206px;
+    height: 500px;
+    border-radius: 15px;
+}
 
 @media screen and (min-width: 1440px ){
   .vid-frame {
     width: 300px
   }
+
+  
+}
+@media screen and (max-width: 375px){
+    .vid-frame {
+        width: 100%;
+        height: 600px;
+    }
+
+    .video-content {
+        width: 100%;
+    }
+
+    .video-content:hover {
+        display: none;
+    }
+    
+    
+    .video-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .author-logo img {
+        width: 85px;
+        height: 85px;
+    }
+
+
+    .content-details h3 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    .author-views {
+        line-height: 28px;
+        font-size: 24px;
+    }
+
+    .reels {
+        display: flex;
+    }
+
+    .reel-box iframe {
+        width: 200px;
+        height: 500px;
+        border-radius: 15px;
+    }
+
 }
