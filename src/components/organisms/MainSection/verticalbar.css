@@ -17,11 +17,7 @@ hr {
     margin-top: 10px;
 }
 
-#hz-line{
-    width: 1100px;
-    border: 2px solid #b3b0b0;
-    margin: 20px 0;
-}
+
 
 .btn Button{
     cursor: pointer;
@@ -107,12 +103,16 @@ hr {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .content-nav{
         display: none;
     }
 
     .content {
         margin: 0;
+    }
+
+    .btn Button {
+        font-size: 36px;
     }
 }

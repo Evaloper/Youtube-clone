@@ -105,9 +105,9 @@ function MainSection() {
           </div>
           <div className="card-temp">
             <CardTemplate />
-            <hr id="hz-line" />
+            {/* <hr id="hz-line" /> */}
             <ReelsTemplate />
-            <hr id="hz-line" />
+            {/* <hr id="hz-line" /> */}
             <CardTemplate />
             <CardTemplate />
             <CardTemplate />

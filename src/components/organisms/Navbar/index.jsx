@@ -118,7 +118,7 @@ function Navbar() {
               <Icon type="search" className="icon-srch" width="20px" />
             </form>
           </div>
-          <div className="">
+          <div className="mic">
             <a href="">
               <Icon type="mic" />
             </a>

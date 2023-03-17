@@ -73,6 +73,13 @@ iframe:hover {
     display: flex;
 }
 
+.reels-con {
+    display: flex;
+    border-top: 2px solid #b3b0b0;
+    border-bottom: 2px solid #b3b0b0;
+    padding: 20px 0;
+}
+
 .reel-box iframe {
     width: 206px;
     height: 500px;
@@ -84,9 +91,13 @@ iframe:hover {
     width: 300px
   }
 
+  .reel-box iframe {
+    width: 235px;
+  }
+
   
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 480px){
     .vid-frame {
         width: 100%;
         height: 600px;
