@@ -1,6 +1,12 @@
 .video-container {
     display: flex;
     transition: 1s all ease-out;
+    margin-bottom: 30px;
+}
+
+.vid-frame {
+    width: 350px;
+    height: 260px;
 }
 
 .author-logo img {
@@ -24,14 +30,14 @@ iframe:hover {
 }
 
 
-.video-content:hover {
+/* .video-content:hover {
     transform: scale(1.2);
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
     box-shadow: rgb(9 30 66 / 10%) 0px 0.5rem 1rem 0px;;
     background-color: #fff;
     border-radius: 15px;
     height: 350px;
-}
+} */
 
 .content-details {
     margin-left: 5px;
@@ -39,13 +45,16 @@ iframe:hover {
 }
 
 .content-details h3 {
-    font-size: 14px;
+    font-size: 1.6em;
     line-height: 20px;
+    font-weight: 500;
 }
 
 .author-views {
-    line-height: 15px;
-    font-size: 12px;
+    font-size: 1.4em;
+    line-height: 20px;
+    padding-top: 8px;
+    
 }
 
 .hidden {
@@ -86,13 +95,18 @@ iframe:hover {
     border-radius: 15px;
 }
 
+/* @media screen and (min-width: 1500px ){
+    .reel-box iframe {
+        width: 255px;
+    }
+} */
 @media screen and (min-width: 1440px ){
-  .vid-frame {
-    width: 300px
-  }
+    .vid-frame {
+        width: 430px;
+    }
 
   .reel-box iframe {
-    width: 235px;
+    width: 255px;
   }
 
   
