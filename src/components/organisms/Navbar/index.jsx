@@ -125,8 +125,8 @@ function Navbar() {
           </div>
         </div>
         <div className="flex flex-align">
-          <Icon type="video" width="20px" className="left-margin" />
-          <Icon type="bell" width="20px" className="left-margin" />
+          <Icon type="video" width="20px" className="left-margin " id="vid-icon" />
+          <Icon type="bell" width="20px" className="left-margin " id="bell-icon" />
           <div className="pfile-div">
             <Image src={pics} className="pfile-pics left-margin" width="20px" />
           </div>

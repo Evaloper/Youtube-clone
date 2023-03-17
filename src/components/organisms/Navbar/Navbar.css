@@ -113,12 +113,55 @@
   }
 
   .top-nav {
-    margin-top: 20px;
+    margin: auto;
+    position: fixed;
+    height: 100px;
+
   }
 
+  .ytb-div svg {
+    width: 60px;
+  }
+
+  .txt-youtube {
+    font-size: 36px;
+  }
+
+  .sup-txt {
+    font-size: 18px;
+  }
   .btn-srch svg {
     position: absolute;
     right: 160px;
     top: 10px;
+  }
+
+  #vid-icon {
+    display: none;
+  }
+
+  #bell-icon{
+    width: 40px;
+  }
+
+  .pfile-pics {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-srch {
+    position: relative;
+    left: 350px;
+    width: 40px;
+    top: 14px;
+  }
+
+  .chips-wrapper {
+    top: 100px;
+    font-size: 36px;
+  }
+
+  .card-temp {
+    margin-top: 130px;
   }
 }

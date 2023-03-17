@@ -64,7 +64,6 @@ export const Icon = (props) => {
         className="style-scope yt-icon"
         style={{
           pointerEvents: "none",
-          display: "block",
           width: "20px",
           height: "100%",
         }}

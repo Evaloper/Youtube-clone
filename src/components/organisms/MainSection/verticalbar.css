@@ -101,4 +101,33 @@ hr {
     .btn Button {
         font-size: 36px;
     }
+
+    .vid-icon {
+    display: none;
+  }
+
+  .bell-icon{
+    width: 40px;
+  }
+
+  .pfile-pics {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon-srch {
+    position: relative;
+    left: 350px;
+    width: 40px;
+    top: 14px;
+  }
+
+  .chip-wrapper {
+    top: 100px;
+    font-size: 36px;
+  }
+
+  .card-temp {
+    margin-top: 130px;
+  }
 }
