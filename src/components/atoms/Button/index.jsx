@@ -1,5 +1,5 @@
 import React from "react";
-import { button } from "../../../theme/styleDefinition";
+import { button } from "./app";
 
 
 export const Button = (props) => {
